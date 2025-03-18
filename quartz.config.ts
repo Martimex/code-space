@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Code Space",
+    pageTitleSuffix: " - by MTX",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,15 +23,18 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: {
+          name: "Bruno Ace SC",
+          weights: [400],
+        },
+        body: "Saira",  // Kanit  |  Hubot Sans
+        code: "Prompt",  //  Noto Sans Mono
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
+          light: "#caf0f8",
+          lightgray: "#ade8f4",
+          gray: "#90e0ef",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
           secondary: "#284b63",
@@ -40,16 +43,22 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          light: "#0d1b2a",
+          lightgray: "#0096c7dd",
+          gray: "#0077b6",
+          darkgray: "#dbdbdb",
+          dark: "#d4d4d4",
+          secondary: "#0096c7",
+          tertiary: "#48cae4ee",
+          /* Test below values */
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
+        /*
+          #03045e, #023e8a, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef, #ade8f4, #caf0f8,
+            #0d1b2a
+
+        */
       },
     },
   },
