@@ -2,12 +2,10 @@
 
 # 20.03.2025 (zajęcia #1)
 
-<br>
-
 ## Przygotowanie do jazdy
 
 1) **Fotel** - trzeba ustawić fotel tak, aby siedzieć nie za daleko od pedałów oraz kierownicy. Pod siedzeniem na dole znajduje się drążek (regulacja), który można pociągnąć do przodu / do tyłu (w pewnym zakresie), tak aby ustawić fotel według własnych preferencji. Nie powinien być ustawiony zbyt daleko. Ustaw fotel tak, aby nadgarstek wyprostowanej do przodu ręki znajdował się na kierownicy. Nogi mają swobodnie sięgać do pedałów oraz sprzęgła. 
-2) **Zagłówek** - następnie trzeba regulować zagłówek (górną część fotela). Zagłówek powinien być ustawiony na wysokości głowy - tak, aby głowa była na poziomie poduchy zagłówka.
+2) **Zagłówek** - następnie trzeba regulować zagłówek (górną część fotela). Zagłówek powinien być ustawiony na wysokości głowy - tak, aby głowa była na poziomie poduchy zagłówka. Przycisk do regulacji zagłówka znajduje się obok lewego drążka podtrzymującego poduchę zagłówka. 
 3) **Lusterko wewnętrzne (przednie)** - trzymając i regulując ramy lusterka, należy ustawić je w taki sposób, aby bez wysiłku z pozycji jazdy (bez wykonywania zbędnych ruchów na fotelu) widzieć całą szybę tylną swojego samochodu oraz drogę za nią.
 4)  **Lusterka zewnętrzne (boczne)** - po lewej stronie na samym końcu panelu rozdzielczego, znajduje się okrągły przycisk regulacji lusterka ze switchem. Switch pozwala zmieniać lusterko, które będziemy regulować. Regulację wykonuje się za pomocą przycisków strzałek odpowiednio na krawędziach okrągłego przycisku. Lusterko lewe oraz prawe pełnią inne funkcje, z tego względu powinny być ustawione w taki sposób:
 	1)  *Lewe lusterko* - dobrze ustawione, powinno ujawniać fragment boku pojazdu oraz drogę za naszym samochodem. W centralnym punkcie w pionie lusterka, powinniśmy widzieć fragment tylnych świateł.
@@ -96,3 +94,47 @@ Aby zakończyć jazdę, należy:
 * **Naciskamy pedał sprzęgła ZAWSZE w sytuacjach, gdy nie chcemy aby samochód ruszał (np. przy Zatrzymywaniu pojazdu, Rozpoczynaniu jazdy, Zakończeniu jazdy). Niewciskanie pedału sprzęgła podczas jazdy jest równoznaczne z chęcią dalszej jazdy (poza sprawą zmiany biegu w trakcie jazdy)**
 * Ręce powinny być lekko zgięte, a dłonie ustawione na kole kierownicy w pozycjach:  godzina 9. (lewa ręka) oraz godzina 3. (prawa ręka).
 * Kierownicą można wykonać maksymalnie dwa pełne obroty w jedną stronę. Przy wykonywaniu dwóch pełnych obrotów (po wykonaniu pierwszego i przed drugim pełnym obrotem kierownicy), trzeba szybko wymienić dolną rękę na samą górę, aby "nie poplątać rąk", i uniemożliwić sprawnego wykonania drugiego obrotu kierownicą. 
+
+
+<br>
+<br>
+<br>
+
+
+# 24.03.2025 (zajęcia #2)
+
+
+## Wznawianie jazdy
+
+Gdy z jakiegoś powodu jesteśmy zmuszeni zmniejszyć prędkość pojazdu do 0 km / h (hamowanie z użyciem dociśniętego sprzęgła oraz pedału hamulca), aby wznowić jazdę (naciskając maksymalnie dociśnięty pedał sprzęgła):
+
+1) Jeżeli bieg nie jest zmieniony na pierwszy, należy zacząć od tego kroku - ustawić pierwszy bieg;
+2) Cały czas maksymalnie dociskając pedał sprzęgła, możemy lekko nacisnąć pedał gazu, tak aby liczba obrotów silnika wynosiła około 2000 - 2500 obrotów. Oczywiście, z racji iż cały czas dociśnięty jest pedał sprzęgła, pomimo dodania gazu, samochód nie ruszy z miejsca.
+3) Utrzymując taki sam nacisk na pedał gazu (który pozwala utrzymać się w zakresie 2000 - 2500 obrotów silnika), bardzo powoli zwalniamy pedał sprzęgła. Spowoduje to powolny, ale stopniowy wzrost prędkości. Samochód zostanie wprawiony ruch, i gdy zacznie nabierać prędkości, można pewniej zwalniać pedał sprzęgła.
+4) Finalnie pedał sprzęgła całkowicie zwalniamy, a gdy osiągniemy prędkość około 20 km / h, warto wtedy zmienić bieg na drugi (poprzez dociśnięcie pedału sprzęgła oraz zmianę biegu na drugi).
+
+<br>
+<br>
+
+## Kiedy zmieniać biegi ?
+
+W dużej mierze zmianę biegu powinna determinować aktualna prędkość naszego pojazdu. Sytuacja prezentuje się w następujący sposób:
+
+1) Bieg 1.  => Domyślnie, kiedy zaczynamy jazdę i pojazd porusza się z prędkością do 20 km / h ;
+2) Bieg 2. => W przedziale od 20 km / h  do 40 km / h ;
+3) Bieg 3. => W przedziale od 40 km / h do 60 km / h ;
+4) Bieg 4. => Powyżej 60 km / h;
+5) Bieg 5. => ???
+
+<br>
+<br>
+
+## `Porady`
+
+* W sytuacji zatrzymania naszego pojazdu (np. podczas korku drogowego), zamiast zostawania na pierwszym biegu i nieustannym dociskaniem pedału sprzęgła (zanim ruszymy ponownie, gdy korek się odblokuje), możemy ustawić drążek skrzyni biegów w pozycji początkowej (bez wybierania biegu, tj. na samym środku skrzyni). Wtedy nie ma potrzeby ciągłego dociskania pedału sprzęgła, ponieważ samochód i tak nie ruszy, natomiast silnik w ten sposób nie zgaśnie. **Ważne jest, aby przy takim rozwiązaniu zamiast całościowego dociskania pedału sprzęgła, lekko naciskać na pedał hamulca - żeby samochód nie staczał się lekko do tyłu na wzniesieniu**. Gdy korek się odblokuje, wtedy:
+	1) zwalniamy pedał gazu
+	2) dociskamy mocno pedał sprzęgła
+	3) ustawiamy bieg na pierwszy
+	4) lekko naciskamy pedał gazu, aby uzyskać 2000 - 2500 obrotów silnika i utrzymujemy nacisk pedału gazu na takim poziomie
+	5) bardzo powoli zwalniamy pedał sprzęgła, pozwalając samochodowi na nabranie podstawowej prędkości do jazdy
+	6) finalnie całkowicie zwalniamy nogę z pedału sprzęgła i pedału gazu
