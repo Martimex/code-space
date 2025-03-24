@@ -138,3 +138,4 @@ W dużej mierze zmianę biegu powinna determinować aktualna prędkość naszego
 	4) lekko naciskamy pedał gazu, aby uzyskać 2000 - 2500 obrotów silnika i utrzymujemy nacisk pedału gazu na takim poziomie
 	5) bardzo powoli zwalniamy pedał sprzęgła, pozwalając samochodowi na nabranie podstawowej prędkości do jazdy
 	6) finalnie całkowicie zwalniamy nogę z pedału sprzęgła i pedału gazu
+*   Na drążku kierunkowskazu znajduje się przełącznik świateł w samochodzie. Opcja na samym dole (ikona przypominająca literę "O") wyłącza światła samochodowe.
