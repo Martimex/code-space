@@ -43,6 +43,7 @@ Next up, we need to **structure our project** by adding a few important files an
 ```
 
 <br>
+
 ## S3. Install Express.js
 
 To simplify the creation process of a server, we will make use of Express.js, which is a popular, lightweight JavaScript web framework to create web applications. Now, inside the newly created folder, install Express.js :
@@ -53,7 +54,7 @@ To simplify the creation process of a server, we will make use of Express.js, wh
 
 <br>
 
-## S4. Create server inside server.js
+##  S4. Create server inside server.js
 
 The essential step will be to add a logic that creates an accessible server that may handle some files. Here is how to achieve it:
 
@@ -72,7 +73,8 @@ app.listen(port, () => {
 ```
 
 <br> 
-## S5. Add code to remain files
+
+##  S5. Add code to remain files
 
 Now it is time to include some meaningful code inside newly created files. Below you can find some example content of each file, that will follow project structure defined in `S2`.
 
@@ -88,9 +90,9 @@ Now it is time to include some meaningful code inside newly created files. Below
 	</head>
 
 	<body>
-	    <div class="title"> Test content </div>  
+        <div class="title"> Test content </div>  
 
-	    <script src="script.js"></script>
+        <script src="script.js"></script>
 	</body>
 </html>
 ```
@@ -99,26 +101,26 @@ Now it is time to include some meaningful code inside newly created files. Below
 
 ```
 html {
-    font-size: 12px;
+    font-size: 12px;
 }
 
 *, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0 auto;
-    border: 2px solid #444;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px solid #444;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: #222;
-    color: #ddd;
-    min-height: 100vh;
-    width: 100%;
+    font-family: 'Arial', sans-serif;
+    background: #222;
+    color: #ddd;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .title {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2rem;
+    text-align: center;
 }
 ```
 
