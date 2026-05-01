@@ -32,7 +32,6 @@ NOTE #2: This starter assumes that your HTML, CSS and JS files are located insid
 
 ```
 /* Remove default browser styling */
-
 *, *:before, *:after {
 	margin: 0;
 	padding: 0;
@@ -40,7 +39,6 @@ NOTE #2: This starter assumes that your HTML, CSS and JS files are located insid
 
 
 /* Make sure the canvas element is always covering the viewport, even when user scrolls */
-
 canvas#webgl-canvas {
 	position: fixed;
 	top: 0;
@@ -54,10 +52,10 @@ canvas#webgl-canvas {
 ```
 import * as THREE from "three";
 import GUI from "lil-gui";
-
+	
 // Optional - instantiate lil-gui debug panel (first install dependency with: npm i lil-gui)
 const gui = new GUI();
-
+	
 // Adjust canvas size when resizing the window
 window.addEventListener("resize", () => {
 	SIZES.WIDTH = window.innerWidth;
@@ -67,7 +65,7 @@ window.addEventListener("resize", () => {
 	renderer.setSize(SIZES.WIDTH, SIZES.HEIGHT);
 	renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 });
-
+	
 // Toggle fullscreen mode on double click
 window.addEventListener('dblclick', () => {
 	const fullScreenEl = document.fullscreenElement || document.webkitFullscreenElement;
@@ -79,38 +77,38 @@ window.addEventListener('dblclick', () => {
 		else if(document.webkitExitFullscreen) document.webkitExitFullscreen();
 	}
 });
-
+	
 // Custom camera control on mouse move. Alternatively use controls (eg. Orbit Controls)
 window.addEventListener('mousemove', (event) => {
 	CURSOR.xPos = event.clientX / SIZES.WIDTH - 0.5;
 	CURSOR.yPos = -(event.clientY / SIZES.HEIGHT - 0.5);
 })
-
+	
 // HOOK FOR HTML CANVAS ELEMENT
 const CANVAS_EL = document.querySelector('canvas#webgl-canvas');
-
+	
 // USED TO TWEAK THE ISSUE WITH INTERNAL THREEJS COLOR MANAGEMENT
 const GUI_GLOBALS = {
 	color: "#59a1f3"
 }
-
+	
 // GLOBAL OBJECT USED TO HANDLE WINDOW RESIZING
 const SIZES = {
 	WIDTH: window.innerWidth,
 	HEIGHT: window.innerHeight,
 	updateAspect: function() { return this.WIDTH / this.HEIGHT }
 }
-
+	
 // GLOBAL OBJECT USED FOR CUSTOM CONTROLS
 const CURSOR = {
 	xPos: 0,
 	yPos: 0,
 	STRENGTH: 5,
 }
-
+	
 // Initialize the scene
 const scene = new THREE.Scene();
-
+	
 // Create a basic cube and add it to the scene
 const geometryMaterial = new THREE.MeshBasicMaterial({ color: GUI_GLOBALS.color });
 const geometry = new THREE.Mesh(
@@ -118,26 +116,26 @@ const geometry = new THREE.Mesh(
 	geometryMaterial
 );
 scene.add(geometry);
-
+	
 const camera = new THREE.PerspectiveCamera(75, SIZES.WIDTH / SIZES.HEIGHT, 1, 100);
 camera.position.z = -3; // Initially put camera backwards to create some distance between the camera and object
 scene.add(camera);
-
+	
 const renderer = new THREE.WebGLRenderer({
 	canvas: CANVAS_EL
 });
-
+	
 renderer.setSize(SIZES.WIDTH, SIZES.HEIGHT);
 renderer.render(scene, camera);
-
+	
 // Lil-gui controls (optional)
 gui.add(geometry.scale, "x").min(1).max(2).step(0.1).name("Scale X");
 gui.add(geometry.scale, "y").min(1).max(2).step(0.1).name("Scale Y");
 gui.addColor(GUI_GLOBALS, "color").onChange(() => geometryMaterial.color.set(GUI_GLOBALS.color));
-
+	
 // Set up and further use timer for precise animation regardless of device frame rate
 const timer = new THREE.Timer();
-
+	
 const loop = () => {
 	timer.update();
 	const elapsedTime = timer.getElapsed();
@@ -149,6 +147,6 @@ const loop = () => {
 	renderer.render(scene, camera);
 	window.requestAnimationFrame(loop);
 }
-
+	
 loop();
 ```
