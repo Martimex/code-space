@@ -57,7 +57,7 @@ import GUI from "lil-gui";
 
 // Optional - instantiate lil-gui debug panel (first install dependency with: npm i lil-gui)
 const gui = new GUI();
-  
+
 // Adjust canvas size when resizing the window
 window.addEventListener("resize", () => {
 	SIZES.WIDTH = window.innerWidth;
@@ -79,7 +79,7 @@ window.addEventListener('dblclick', () => {
 		else if(document.webkitExitFullscreen) document.webkitExitFullscreen();
 	}
 });
- 
+
 // Custom camera control on mouse move. Alternatively use controls (eg. Orbit Controls)
 window.addEventListener('mousemove', (event) => {
 	CURSOR.xPos = event.clientX / SIZES.WIDTH - 0.5;
@@ -88,7 +88,7 @@ window.addEventListener('mousemove', (event) => {
 
 // HOOK FOR HTML CANVAS ELEMENT
 const CANVAS_EL = document.querySelector('canvas#webgl-canvas');
-  
+
 // USED TO TWEAK THE ISSUE WITH INTERNAL THREEJS COLOR MANAGEMENT
 const GUI_GLOBALS = {
 	color: "#59a1f3"
@@ -107,7 +107,7 @@ const CURSOR = {
 	yPos: 0,
 	STRENGTH: 5,
 }
-  
+
 // Initialize the scene
 const scene = new THREE.Scene();
 
@@ -122,11 +122,11 @@ scene.add(geometry);
 const camera = new THREE.PerspectiveCamera(75, SIZES.WIDTH / SIZES.HEIGHT, 1, 100);
 camera.position.z = -3; // Initially put camera backwards to create some distance between the camera and object
 scene.add(camera);
-  
+
 const renderer = new THREE.WebGLRenderer({
 	canvas: CANVAS_EL
 });
-  
+
 renderer.setSize(SIZES.WIDTH, SIZES.HEIGHT);
 renderer.render(scene, camera);
 
