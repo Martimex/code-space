@@ -1,9 +1,9 @@
 
-Below is a starter code for your Three.js project. Below copying below code, first install the following dependencies:
+Below is a starter code for your Three.js project. Before copying below code, first install the following dependencies:
 
-Three.js  =>  **npm i three**
-(optional) lil-gui  =>  **npm i lil-gui**
-(optional) GSAP  =>  **npm i gsap**
+Three.js  =>  **npm i three** <br>
+(optional) lil-gui  =>  **npm i lil-gui** <br>
+(optional) GSAP  =>  **npm i gsap** <br> 
 
 NOTE #1: This project initially includes lil-gui as a debug tool. In case you don't need it, you might need to remove lil-gui parts in JS file and also omit the installation step for lil-gui
 
