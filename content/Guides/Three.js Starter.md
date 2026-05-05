@@ -1,5 +1,5 @@
 
-Below is a starter code for your Three.js project. Before copying below code, first install the following dependencies:
+Below is a starter code for your Three.js project. Before copying below code, first install following dependencies:
 
 Three.js  =>  **npm i three** <br>
 (optional) lil-gui  =>  **npm i lil-gui** <br>
@@ -118,7 +118,7 @@ const geometry = new THREE.Mesh(
 scene.add(geometry);
 	
 const camera = new THREE.PerspectiveCamera(75, SIZES.WIDTH / SIZES.HEIGHT, 1, 100);
-camera.position.z = -3; // Initially put camera backwards to create some distance between the camera and object
+camera.position.z = 3; // Initially put camera backwards to create some distance between the camera and object
 scene.add(camera);
 	
 const renderer = new THREE.WebGLRenderer({
